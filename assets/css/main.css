@@ -30,3 +30,12 @@ a {
   text-align: center;
 }
 
+#icon-links {
+  padding: 10px;
+  color: #888; 
+}
+
+.fa {
+  padding: 4px;
+}
+
