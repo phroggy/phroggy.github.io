@@ -10,6 +10,8 @@ body {
   background-color: #44535D;
   font-family: 'Roboto', sans-serif;
   height: 100%;
+  margin: 0;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 3.5em;
+  margin: 0.6em;
 }
 
 a {
