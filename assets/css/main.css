@@ -4,9 +4,8 @@ html {
 
 body {
   background-color: #44535D;
-/*  background: linear-gradient(#ccc, #fff 80px);*/
   font-family: 'Roboto', sans-serif;
-  margin-top: 80px;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,11 +27,14 @@ a {
   margin-right: auto;
   max-width: 800px;
   text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #icon-links {
   padding: 10px;
-  color: #888; 
+  color: #888;
 }
 
 .fa {
