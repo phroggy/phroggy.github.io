@@ -34,6 +34,24 @@ a:hover {
   color: #41DA88;
 }
 
+#box {
+  width: 500px;
+  
+  /*
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  */
+  aspect-ratio: 5 / 7;
+  
+  border: 16px solid #41DA88;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
