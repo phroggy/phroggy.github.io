@@ -8,7 +8,7 @@ html {
 
 body {
   background-color: #44535D;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   height: 100%;
   margin: 0;
   overflow: hidden;
@@ -34,12 +34,26 @@ a:hover {
   color: #41DA88;
 }
 
+#box {
+  border: 1em solid #41DA88;
+  aspect-ratio: 5 / 7;
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 84%;
+  max-width: 500px;
+  
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 500px;
   text-align: center;
-  position: relative;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -52,4 +66,3 @@ a:hover {
 .fa {
   padding: 4px;
 }
-
