@@ -59,10 +59,9 @@ a:hover {
 }
 
 #icon-links {
-  padding: 10px;
   color: #888;
+  font-size: 3em;
+  padding: 10px;
+  --fa-width: auto;
 }
 
-.fa {
-  padding: 4px;
-}
