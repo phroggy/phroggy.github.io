@@ -1,0 +1,19 @@
+body {
+  background-color: #ddd;
+}
+    
+h1, h2, h3, h4, h5, h6 {
+  color: #F037A5;
+}
+
+#box {
+  border-color: #F037A5;
+}
+
+a {
+  color: #365169; 
+}
+
+a:hover {
+  color: #F037A5;
+}

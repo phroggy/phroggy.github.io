@@ -52,5 +52,19 @@
       </div>
     </div>
   </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // 0 or 1
+      const theme = Math.floor(Math.random() * 2);
+      
+      if (theme > 0) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'assets/css/colors-' + theme + '.css';
+        document.head.appendChild(link);
+      }
+    });
+  </script>
 </body>
 </html>
